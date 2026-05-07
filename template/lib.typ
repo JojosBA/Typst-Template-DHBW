@@ -69,7 +69,7 @@
   glossary: none,
   show-glossary: true,
   reset-footnote-counter: true,
-  list-indent: 0,
+  list-indent: 0em,
   header: none,
   confidentiality-statement-content: none,
   declaration-of-authorship-content: none,
@@ -476,10 +476,8 @@
     print-glossary(language, glossary-spacing)
   }
 
-  // Sets the indent for unordered lists (bullet points)
   set list(indent: list-indent)
 
-  // Sets the indent for ordered lists (numbered)
   set enum(indent: list-indent)
 
   [#metadata(none)<numbering-preface-end>]
