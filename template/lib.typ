@@ -69,6 +69,7 @@
   glossary: none,
   show-glossary: true,
   reset-footnote-counter: true,
+  list-indent: 0em,
   header: none,
   confidentiality-statement-content: none,
   declaration-of-authorship-content: none,
@@ -474,6 +475,10 @@
   if (show-glossary and glossary != none and glossary.len() > 0) {
     print-glossary(language, glossary-spacing)
   }
+
+  set list(indent: list-indent)
+
+  set enum(indent: list-indent)
 
   [#metadata(none)<numbering-preface-end>]
 

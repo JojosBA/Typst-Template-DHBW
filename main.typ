@@ -29,6 +29,7 @@
   show-glossary: true,
   glossary: glossary, // displays the glossary terms defined in the glossary dictionary
   reset-footnote-counter: true,
+  list-indent: 1em,
   language: "de", // en, de
   university: "Duale Hochschule Baden-Württemberg",
   university-location: "Heidenheim",
