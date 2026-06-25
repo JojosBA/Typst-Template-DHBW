@@ -31,7 +31,7 @@
   reset-footnote-counter: true,
   list-indent: 1em,
   language: "de", // en, de
-  university: "Duale Hochschule Baden-Württemberg",
+  university: "Dualen Hochschule Baden-Württemberg",
   university-location: "Heidenheim",
   university-short: "DHBW",
   supervisor: (company: "Otto Normalverbraucher", university: "Erika Mustermann"),
