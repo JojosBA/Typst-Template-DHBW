@@ -78,6 +78,7 @@
   university-location: none,
   university-short: none,
   city: none,
+  weeks: none,
   supervisor: (:),
   date: none,
   date-format: "[day].[month].[year]",
@@ -133,6 +134,7 @@
     math-numbering,
     ignored-link-label-keys-for-highlighting,
     page-numbering,
+    weeks,
   )
 
   // set the document's basic properties
@@ -219,6 +221,7 @@
       show-confidentiality-statement,
       confidentiality-marker,
       university-short,
+      weeks,
     )
   }
 
