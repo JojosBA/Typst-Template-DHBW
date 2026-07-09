@@ -158,6 +158,7 @@
 
   // customize look of figure
   set figure.caption(separator: [ --- ], position: bottom)
+  show figure: set block(breakable: true)
 
   // set body font family
   set text(font: body-font, lang: language, 12pt)
